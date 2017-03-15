@@ -147,22 +147,6 @@ body {
   margin: auto;
 }
 
-#testimonials p {
-  color: white;
-  text-align: center;
-  font-style: italic;
-  position: relative;
-  top: 50%;
-}
-
-#testimonials h2 {
-  text-align: center;
-  position: relative;
-  top: 60%;
-}
-
-
-
 #signUp {
   text-align: center;
   background-color: #f9e42e;
@@ -177,8 +161,15 @@ body {
   color: white;
   font-size: 20px;
   font-weight: 200;
-  padding: 75px;
   position: relative;
+  display: block;
+  top: 25%;
+}
+
+#box1 p {
+  font-style: italic;
+  position: relative;
+  left: 15%;
 }
 
 #box2 {
@@ -197,7 +188,6 @@ body {
 footer {
   text-align: center;
   background-color: black;
-  height: 200px;
   position: relative;
   margin: auto;
   width: 720px;
@@ -207,11 +197,23 @@ footer h1 {
   top: 20px;
   color: #f9e42e;
   position: relative;
+  font-size: 24px;
 }
+
+#images {
+  display: block;
+  position: relative;
+}
+
+#images img {
+  padding: 10px;
+  margin: 10px;
+  display: inline;
+}
+
 h4 {
   color: white;
   position: relative;
-  top: 100px;
 }
 
 /******************************************
